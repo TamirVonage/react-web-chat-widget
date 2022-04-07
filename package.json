@@ -1,0 +1,7 @@
+{
+  "name": "@wcd/tamirvonage.react-web-chat-widget",
+  "version": "0.0.0",
+  "scripts": {
+    "serve": "npx wcd-cli@latest serve OhFvySkllMuRIIvJbYOl --open"
+  }
+}
