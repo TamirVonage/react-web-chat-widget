@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import reactToWebComponent from "react-to-webcomponent";
 import {addResponseMessage, Widget} from 'react-chat-widget';
 import App from './App';
-// import MyCounter from './AIChatWidget'
+import MyCounter from './AIChatWidget'
 
 interface State {
   count: number;
@@ -108,15 +108,3 @@ export default class MyCounter extends React.Component<Props, State> {
     );
   }
 }
-
-// ReactDOM.render(
-//   <React.StrictMode>
-//     <App/>
-//   </React.StrictMode>,
-//   document.getElementById('root')
-// );
-
-customElements.define(
-  "my-counter",
-  reactToWebComponent(MyCounter, React, ReactDOM)
-);
